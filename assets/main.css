@@ -1,0 +1,125 @@
+/*
+Made possible by http://www.telescopictext.org/
+Thank you Joe Davis http://www.joedavis.co.uk/telescopic-text/
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+hr,
+textarea,
+input                    {
+                             margin: 0;
+                             padding: 0;
+                             border: 0;
+                             border: none;
+                             font-size: 1em;
+                             font-weight: normal;
+                             font-style: inherit;
+                             font-family: inherit;
+                             text-align: left;
+                             vertical-align: baseline;
+                         }
+html                     { font-size: 100% }
+a img,
+:link img,
+:visited img             { border: 0 }
+table                    {
+                             border-collapse: collapse;
+                             border-spacing: 0;
+                         }
+ol,
+ul                       { list-style: none }
+q:before,
+q:after,
+blockquote:before,
+blockquote:after         { content: "" }
+body                     {
+                             color: #0a0a0a;
+                             font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+                             font-size: 14px;
+                             line-height: 21px;
+                             padding: 60px 36px 60px 36px;
+                             background-color: #fafafa;
+                         }
+.telescopictext          {
+                             font-size: 36px;
+                             line-height: 48px;
+                             display: none;
+                             max-width: 3000px;
+                             word-wrap: break-word;
+                         }
+span._b                  { background-color: #efefef }
+span._b:hover            {
+                             background-color: #eaeaea;
+                             cursor: pointer;
+                             cursor: hand;
+                         }
+span._b:active           { background-color: #e1e1e1 }
+@media handheld, only screen and (max-width: 480px)              { 
+    body               {
+                           font-size: 24px;
+                           line-height: 30px;
+                           padding: 108px 60px 60px 60px;
+                       }
+    div#telescopictext {
+                           font-size: 48px;
+                           line-height: 66px;
+                           margin: 0 0 60px 0;
+                       }
+}
